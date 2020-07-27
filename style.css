@@ -13,9 +13,9 @@ body {
     background-color: lightyellow;
 }
 
-div {
+.finish {
     padding: 20px;
     outline-style: groove;
     margin: auto;
-    width: 300px;
+    width: 200px;
 }
