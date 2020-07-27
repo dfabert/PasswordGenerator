@@ -1,1 +1,3 @@
 # PasswordGenerator
+
+This password generator starts with just a heading and a button.  Once the button is clicked, a long list of code will run.  It will start by asking the user the number of characters to be included.  If they don't answer within the given criteria, it will loop them back to the beginning.  Then there are a series of prompts that ask for the content, each creating a boolean variable.  From there, there are a series of if functions that will create a message to the user to confirm if the correct items were selected.  Finally, if the user is satisfied with the criteria, the function creates a password that is displayed in an alert and on the page.  
