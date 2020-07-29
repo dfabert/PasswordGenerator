@@ -2,8 +2,7 @@ document.getElementById("button").addEventListener("click", function userOptions
         var passLength = prompt("How many characters do you want in your password?  You can pick between 8 and 128");
             if (passLength < 8 || passLength > 128 || isNaN(passLength)) {
                 alert("You did not pick a number between 8 and 128.  You will be returned to the beginning.");
-                stopPropagation();
-                userOptions();
+                return;
             }else
         var passCase = confirm("Would you like uppercase included? (Press 'ok' for yes and 'cancel' for no)");
         var passNum = confirm("Would you like numbers included? (Press 'ok' for yes and 'cancel' for no)");
